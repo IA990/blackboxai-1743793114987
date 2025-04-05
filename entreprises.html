@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Entreprises - JobConnect</title>
+    <meta name="description" content="Découvrez nos services premium pour les entreprises. Recrutez les meilleurs talents avec JobConnect.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?v=3.4.1"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-indigo-600">JobConnect</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="index.html" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                        <a href="#" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Offres d'emploi</a>
+                        <a href="entreprises.html" class="text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Entreprises</a>
+                        <a href="#" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Candidats</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Se connecter</a>
+                    <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700">S'inscrire</a>
+                </div>
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-600 hover:text-indigo-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");'>
+            <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
+        </div>
+        <div class="container relative mx-auto">
+            <div class="items-center flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                    <div class="pr-12">
+                        <h1 class="text-white font-semibold text-5xl">
+                            Solutions de Recrutement Premium
+                        </h1>
+                        <p class="mt-4 text-lg text-gray-200">
+                            Trouvez les meilleurs talents pour votre entreprise avec nos services sur mesure
+                        </p>
+                        <a href="#pricing" class="mt-8 inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-medium hover:bg-indigo-700 transition duration-300">
+                            Découvrir nos offres
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Pourquoi choisir JobConnect ?</h2>
+                    <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                        Nous offrons des solutions innovantes pour optimiser votre processus de recrutement et vous aider à trouver les meilleurs talents.
+                    </p>
+                    <div class="mt-8">
+                        <div class="flex items-start mt-6">
+                            <div class="text-indigo-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-indigo-100">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-xl font-semibold">Matching Intelligent</h3>
+                                <p class="mt-2 text-gray-600">Notre algorithme avancé trouve les candidats qui correspondent le mieux à vos critères.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mt-6">
+                            <div class="text-indigo-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-indigo-100">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-xl font-semibold">Gain de Temps</h3>
+                                <p class="mt-2 text-gray-600">Réduisez le temps de recrutement grâce à nos outils automatisés et notre équipe dédiée.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mt-6">
+                            <div class="text-indigo-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-indigo-100">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-xl font-semibold">Analyses Détaillées</h3>
+                                <p class="mt-2 text-gray-600">Suivez vos campagnes de recrutement avec des tableaux de bord personnalisés.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 px-4 mt-12 md:mt-0">
+                    <img src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Features" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold">Nos Offres</h2>
+                <p class="mt-4 text-lg text-gray-600">Choisissez l'offre qui correspond le mieux à vos besoins</p>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <!-- Basic Plan -->
+                <div class="w-full md:w-4/12 px-4">
+                    <div class="bg-white rounded-lg shadow-lg p-8 mb-8 hover:shadow-xl transition duration-300">
+                        <h3 class="text-2xl font-semibold text-center mb-4">Essentiel</h3>
+                        <div class="text-center mb-8">
+                            <span class="text-4xl font-bold">99€</span>
+                            <span class="text-gray-600">/mois</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>5 offres d'emploi actives</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Base de CV standard</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Support par email</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Statistiques basiques</span>
+                            </li>
+                        </ul>
+                        <button class="w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition duration-300">
+                            Commencer
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="w-full md:w-4/12 px-4">
+                    <div class="bg-white rounded-lg shadow-lg p-8 mb-8 transform scale-105 border-2 border-indigo-600 hover:shadow-xl transition duration-300">
+                        <div class="absolute top-0 right-0 bg-indigo-600 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm">
+                            Populaire
+                        </div>
+                        <h3 class="text-2xl font-semibold text-center mb-4">Pro</h3>
+                        <div class="text-center mb-8">
+                            <span class="text-4xl font-bold">299€</span>
+                            <span class="text-gray-600">/mois</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>20 offres d'emploi actives</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Accès illimité à la base de CV</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Support prioritaire</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Tests de compétences</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Statistiques avancées</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Intégration ATS</span>
+                            </li>
+                        </ul>
+                        <button class="w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition duration-300">
+                            Commencer
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="w-full md:w-4/12 px-4">
+                    <div class="bg-white rounded-lg shadow-lg p-8 mb-8 hover:shadow-xl transition duration-300">
+                        <h3 class="text-2xl font-semibold text-center mb-4">Entreprise</h3>
+                        <div class="text-center mb-8">
+                            <span class="text-4xl font-bold">Sur mesure</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Offres d'emploi illimitées</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Solution personnalisée</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Account manager dédié</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>API & intégrations sur mesure</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Formation & accompagnement</span>
+                            </li>
+                        </ul>
+                        <button class="w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition duration-300">
+                            Nous contacter
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold text-center mb-16">Ils nous font confiance</h2>
+            <div class="flex flex-wrap">
+                <!-- Testimonial 1 -->
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-lg p-8">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Testimonial" class="h-12 w-12 rounded-full">
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold">Sophie Martin</h4>
+                                <p class="text-gray-600">DRH, TechCorp</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"JobConnect nous a permis de réduire considérablement notre temps de recrutement. L'interface est intuitive et les candidats sont de grande qualité."</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-lg p-8">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Testimonial" class="h-12 w-12 rounded-full">
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold">Thomas Dubois</h4>
+                                <p class="text-gray-600">CEO, StartupFlow</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Le matching intelligent de JobConnect nous a permis de trouver des profils parfaitement adaptés à nos besoins. Un gain de temps précieux !"</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-lg p-8">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Testimonial" class="h-12 w-12 rounded-full">
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold">Marie Leroy</h4>
+                                <p class="text-gray-600">RH Manager, InnovGroup</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"L'accompagnement personnalisé et les outils d'analyse nous ont permis d'optimiser notre processus de recrutement. Excellent ROI !"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-indigo-600">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-semibold text-white mb-4">Prêt à optimiser votre recrutement ?</h2>
+            <p class="text-xl text-indigo-100 mb-8">Rejoignez les milliers d'entreprises qui font confiance à JobConnect</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#pricing" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-medium hover:bg-indigo-50 transition duration-300">
+                    Voir les offres
+                </a>
+                <a href="contact.html" class="border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-indigo-700 transition duration-300">
+                    Nous contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">JobConnect</h3>
+                    <p class="text-gray-400">Votre partenaire de confiance pour le recrutement et la recherche d'emploi.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Offres d'emploi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Entreprises</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Candidats</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Légal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mentions légales</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Politique de confidentialité</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">CGU</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Suivez-nous</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 JobConnect. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
